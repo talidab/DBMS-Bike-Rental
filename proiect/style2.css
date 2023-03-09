@@ -1,0 +1,83 @@
+body {
+    font-size: 120%;
+	background: #F8F8FF;
+	background-image: url('bicicleta.png');
+}
+
+.header {
+	width: 70%;
+	margin: 50px auto 0px;
+	color: white;
+	background-image:linear-gradient(to bottom right, #420f7d , #f0a2e8);
+	text-align: center;
+	border-image: 1px solid linear-gradient(to bottom right, #420f7d , #f0a2e8);;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+
+form, .content {
+	width: 70%;
+	margin: 0px auto;
+	padding: 20px;
+	border-image: 1px solid #f9f7fb;
+	background: rgb(239, 209, 239);
+	border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #be74cb;
+	border: none;
+	border-radius: 5px;
+    cursor:pointer;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    color:#420f7d;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+}
+.table th {
+    background-color: #be74cb;
+}
+.table td {
+    width: 150px;
+	text-align: left;
+}
+.table tr:nth-child(even){
+    background-color: #f9f7fb;
+}
+.table tr:nth-child(odd){
+    background-color: #be74cb;
+}
